@@ -1,0 +1,1046 @@
+{
+  "doctorUser": {
+    "id": "doctor-1",
+    "name": "Ananya Krishnan",
+    "username": "Ananya Krishnan",
+    "password": "doc123",
+    "role": "doctor",
+    "specialty": "Psychiatry"
+  },
+  "patients": [
+    {
+      "id": "patient-1",
+      "name": "Arjun Mehta",
+      "username": "Arjun Mehta",
+      "password": "pat123",
+      "age": 29,
+      "condition": "Anxiety Monitoring",
+      "risk": "low",
+      "mood": 5,
+      "sleep": 6.5,
+      "streak": 1,
+      "hr": 88,
+      "hrv": 90,
+      "eda": 307.22815,
+      "avatar": "AM"
+    },
+    {
+      "id": "patient-2",
+      "name": "Riya Sen",
+      "username": "Riya Sen",
+      "password": "riya123",
+      "age": 24,
+      "condition": "Burnout Recovery",
+      "risk": "high",
+      "mood": 4,
+      "sleep": 5.2,
+      "streak": 4,
+      "hr": 250,
+      "hrv": 100,
+      "eda": 174.84891,
+      "avatar": "RS"
+    }
+  ],
+  "notesByPatient": {
+    "patient-1": [
+      {
+        "id": "8a22344e-e33a-458b-94ba-c919a1cd3033",
+        "note": "u should focus on ur life and studies and also hit gym to boost confidence",
+        "created_at": "2026-05-02T10:43:44.054Z"
+      }
+    ],
+    "patient-2": []
+  },
+  "messagesByPatient": {
+    "patient-1": [
+      {
+        "id": "85472d3a-8d69-4eab-811d-e91864b47155",
+        "doctor_name": "Ananya Krishnan",
+        "content": "u should hit gym and go for good diet to boost ur confidence",
+        "sent_at": "2026-05-02T10:44:19.152Z"
+      },
+      {
+        "id": "7206e60f-de7f-4658-aa11-c2b1fe9dc050",
+        "doctor_name": "System Alert",
+        "content": "Urgent safety language was detected in the latest patient check-in. Please review immediately.",
+        "sent_at": "2026-05-02T05:44:24.662Z"
+      },
+      {
+        "id": "0402b85a-ec02-46dc-92ad-78248c299c97",
+        "doctor_name": "System Alert",
+        "content": "Urgent safety language was detected in the latest patient check-in. Please review immediately.",
+        "sent_at": "2026-05-02T05:42:13.580Z"
+      },
+      {
+        "id": "17fe99c6-50bf-4944-a533-8211b0372669",
+        "doctor_name": "System Alert",
+        "content": "Urgent safety language was detected in the latest patient check-in. Please review immediately.",
+        "sent_at": "2026-05-02T05:40:56.845Z"
+      }
+    ],
+    "patient-2": []
+  },
+  "chats": {
+    "patient-1": [
+      {
+        "id": "ead72661-3dc3-4829-bf35-b0364cd15d32",
+        "role": "user",
+        "text": "i am feeling so lonely these days",
+        "time": "2026-05-02T16:18:10.491Z"
+      },
+      {
+        "id": "a60fce92-8fc4-465c-9049-47ef11c088a3",
+        "role": "assistant",
+        "text": "It takes a lot of courage to acknowledge feeling lonely and depressed, and I'm here to listen and support you.\n\nCan you tell me more about what's making you feel that way? Is it something specific that happened recently, or has it been building up for a while? Sometimes sharing the details can help us find ways to break through those feelings together.",
+        "time": "2026-05-02T16:18:10.491Z"
+      },
+      {
+        "id": "426a6f15-37b4-4433-8834-01495220dac8",
+        "role": "user",
+        "text": "i am depressed motivate me",
+        "time": "2026-05-02T16:17:27.948Z"
+      },
+      {
+        "id": "adf844eb-4fa2-4d3f-b0f9-2c091ea6cf78",
+        "role": "assistant",
+        "text": "I'm here for you, but I want to make sure we're on the same page before we dive into motivation. Can you tell me more about what's been going on that's making you feel this way? Is there something specific that's contributing to your feelings of depression or is it a general sense of overwhelm?",
+        "time": "2026-05-02T16:17:27.948Z"
+      },
+      {
+        "id": "2343527d-d534-415f-971b-43815d75b48e",
+        "role": "user",
+        "text": "hello",
+        "time": "2026-05-02T16:17:19.223Z"
+      },
+      {
+        "id": "dd01543f-31fa-40ef-9291-02f87133f26a",
+        "role": "assistant",
+        "text": "Hello! It's nice to see you. Is everything okay? You didn't seem particularly bothered when we last caught up, but I'm always here if you need someone to talk to. How's your day been so far?",
+        "time": "2026-05-02T16:17:19.223Z"
+      },
+      {
+        "id": "0252832a-8612-4442-9f0e-3457529efb0a",
+        "role": "assistant",
+        "text": "Let’s start fresh. How are you feeling right now? You can also tell me a little about what has been on your mind lately.",
+        "time": "2026-05-02T16:17:08.153Z"
+      }
+    ],
+    "patient-2": [
+      {
+        "id": "a978cf94-0abf-4ce1-bd82-7d189936bacf",
+        "role": "assistant",
+        "text": "How are you feeling right now? You can tell me briefly, and I’ll combine that with your recent vitals.",
+        "time": "2026-05-02T05:21:44.342Z"
+      }
+    ]
+  },
+  "analyses": {
+    "patient-1": [
+      {
+        "id": "1e47d07f-b160-41aa-bb16-0efdd11dc80c",
+        "timestamp": "2026-05-02T16:18:10.491Z",
+        "promptSlot": "night",
+        "text": "i am feeling so lonely these days",
+        "sentiment": "neutral",
+        "sentimentScore": 0,
+        "emotion": "sadness",
+        "keywords": [],
+        "distortions": [],
+        "riskSignals": {
+          "crisis": false,
+          "hopeless": false
+        },
+        "stressScore": 4,
+        "stressLevel": "medium",
+        "discrepancy": "aligned",
+        "insight": "There are some signs of stress building in both your message and recent vitals."
+      },
+      {
+        "id": "94d7f4b1-8140-4448-9045-cc39f145169f",
+        "timestamp": "2026-05-02T16:17:27.948Z",
+        "promptSlot": "night",
+        "text": "i am depressed motivate me",
+        "sentiment": "neutral",
+        "sentimentScore": -1,
+        "emotion": "sadness",
+        "keywords": [],
+        "distortions": [],
+        "riskSignals": {
+          "crisis": false,
+          "hopeless": false
+        },
+        "stressScore": 4,
+        "stressLevel": "medium",
+        "discrepancy": "aligned",
+        "insight": "There are some signs of stress building in both your message and recent vitals."
+      },
+      {
+        "id": "25b2d58a-7f3f-4a23-96cb-ae5d22759b5e",
+        "timestamp": "2026-05-02T16:17:19.223Z",
+        "promptSlot": "night",
+        "text": "hello",
+        "sentiment": "neutral",
+        "sentimentScore": 0,
+        "emotion": "neutral",
+        "keywords": [],
+        "distortions": [],
+        "riskSignals": {
+          "crisis": false,
+          "hopeless": false
+        },
+        "stressScore": 3,
+        "stressLevel": "low",
+        "discrepancy": "aligned",
+        "insight": "Your recent check-in looks relatively steady overall."
+      }
+    ],
+    "patient-2": []
+  },
+  "sensorHistory": {
+    "patient-1": [
+      {
+        "id": "5df17dfa-44c5-49c5-8770-d9a7a89496b8",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "997e0ade-92b5-4d9f-9c65-6ea2855b2851",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "f3019354-9e3c-4bfc-a863-62343cc95eb1",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "28cabe07-63cb-474b-955c-0c0fd637d5b0",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "6aca46eb-8730-46b8-a1e7-b93d0324b61a",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "a777872f-5687-4945-abb3-fac306959ce3",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "8d9ade00-23dc-4498-822f-330495a8d827",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "cf4ac0a9-a0f8-4a9c-9348-01406f8e7ab1",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "935a1629-6c5d-4694-bc98-971a4d4937c9",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "f2acf546-c365-4f98-9447-960bbedbe42b",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "bf4749fe-16ec-4e87-a859-6d3a0a641f8a",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "98912c17-d6f2-4b16-8de1-01f3df671c20",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "d326426e-edc5-43aa-8a60-abdd390d5fac",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "164a9dea-2dc7-43a9-aa73-bb5cd3cd27b6",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "4f57f45a-9d56-40f1-b18f-0e880270b3eb",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "2e90bedd-93be-4bca-8685-c7892848d393",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "e807ca5d-cf88-425a-91f0-8dbb4f9b4d16",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "70b09fab-4c6a-4849-b87f-52058a596fb7",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "310b014e-dc8a-43ff-b4c3-fdb6809dd651",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "852c66d3-21c2-4e9d-b51e-38621a2fd6fa",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "bbc553b0-aa09-41db-84db-6e7434d3e117",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "1d57e6e2-6bf8-4527-8233-7bacee84223e",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "316ba8b4-932d-40d0-abcf-86858a0057b1",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "f8531223-e12d-4548-ac3e-cbd7741dfd3f",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "805a0b5e-bae2-4378-8050-0b990debb13d",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "246929c5-86d4-4351-a790-d55baedf45bc",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "762f86ae-a1c4-49a9-a7ee-77ca51ddf96e",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "9bfedf8c-8cff-4efb-8c7b-8e27b94220dc",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "934ed6eb-aeb4-4c0e-9309-63a09a05e036",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "f40b56d7-cf1f-401f-8b3f-3a090e23f266",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "94707db6-0d11-43b1-b87d-f4dc2d46c1b3",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "387865bc-e8b2-4dc3-8321-41536f103c9f",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "6617ef8a-6ddf-43c8-9b04-e6343c9cb8ef",
+        "hr": 88,
+        "hrv": 99,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:36:43Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "b90dc207-717c-4d35-889c-bfeeecc2ba2a",
+        "hr": 136,
+        "hrv": 99,
+        "eda": 347.38287,
+        "timestamp": "2026-05-02T16:36:04Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "a7b7ed22-91c3-43df-945e-a6e9276c63bc",
+        "hr": 125,
+        "hrv": 99,
+        "eda": 374.87842,
+        "timestamp": "2026-05-02T16:35:45Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "6d17daf4-fc07-4272-9154-e3fdffc6d030",
+        "hr": 166,
+        "hrv": 93,
+        "eda": 407.19577,
+        "timestamp": "2026-05-02T16:35:06Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "e84d7bd1-3705-4f34-9657-935e192931a3",
+        "hr": 136,
+        "hrv": 99,
+        "eda": 453.49808,
+        "timestamp": "2026-05-02T16:34:47Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "a8bb3f6c-069d-4393-b952-52f843b72e36",
+        "hr": 107,
+        "hrv": 96,
+        "eda": 519.12781,
+        "timestamp": "2026-05-02T16:34:24Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "6507c598-79f5-4289-a8c1-388b2b8a7a49",
+        "hr": 107,
+        "hrv": 96,
+        "eda": 519.12781,
+        "timestamp": "2026-05-02T16:34:05Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "c03c825a-250c-4cf9-865a-f07da162e62e",
+        "hr": 51,
+        "hrv": 94,
+        "eda": 655,
+        "timestamp": "2026-05-02T16:33:26Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "b0aebcb8-8090-48d8-852f-064849210d39",
+        "hr": 115,
+        "hrv": 94,
+        "eda": 20,
+        "timestamp": "2026-05-02T16:33:07Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "0830cbd2-0dad-4e2e-a68e-47e58d65bfeb",
+        "hr": 115,
+        "hrv": 94,
+        "eda": 20,
+        "timestamp": "2026-05-02T16:33:07Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "4203ffcc-278e-4395-b983-89ddf314e249",
+        "hr": 115,
+        "hrv": 94,
+        "eda": 20,
+        "timestamp": "2026-05-02T16:33:07Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "18d22135-ec51-4d8a-afea-14cabc5ce63a",
+        "hr": 115,
+        "hrv": 98,
+        "eda": 20,
+        "timestamp": "2026-05-02T16:32:47Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "16c3ad97-4864-44bd-9ae7-3ffa070004d8",
+        "hr": 75,
+        "hrv": 95,
+        "eda": 20,
+        "timestamp": "2026-05-02T16:32:08Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "2a8f8c8d-4c0c-48a6-bc51-aac6608ab0f2",
+        "hr": 75,
+        "hrv": 95,
+        "eda": 20,
+        "timestamp": "2026-05-02T16:32:08Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "b03191d8-60b7-4c62-894d-1348e1b8739b",
+        "hr": 75,
+        "hrv": 95,
+        "eda": 20,
+        "timestamp": "2026-05-02T16:32:08Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "e11a1916-2cbb-425b-9940-d2f6e4173d5b",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "cbe18f29-ea22-4205-92ce-80332f079f1d",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "c7f644d1-8bae-48a6-b2c2-73bf06d104ee",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "0d6f6853-ea9c-44ce-a473-a9445706af98",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "3c6f69fb-f590-4003-8dd3-5dbe8916b2fa",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "23721d33-f641-40aa-9bea-5829d4589574",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "049e0279-ed80-4f42-afe2-92d1d22a1dbb",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "13110c57-fcff-41a0-a5e9-b4c1fa587fde",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "adecebc7-b8d6-4a33-a8d3-bd5bd38b580a",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "a20b7344-2289-4ca6-aa6b-b609cb5c1c69",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "eab5f678-dea7-4383-a7aa-2c0714ef581d",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "782d672f-7212-4bc8-b93b-fe93f0102426",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "793f54f4-d38c-43c7-80c3-c1cd394381a9",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "8d6d391b-bb40-4c6c-af39-a8509bb4aacf",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "e4af5d76-e080-4604-8576-b6d57f2fabbd",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "12a85cea-666a-4ada-ad6e-a32a80620f42",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "4100ae26-d5c1-462f-9519-4a48afcd2e16",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "93562a08-aa8b-43d6-b4a7-e2a238e5aac8",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "1882f040-5bdf-4d0f-8452-3612d03d7372",
+        "hr": 125,
+        "hrv": 90,
+        "eda": 65.5801,
+        "timestamp": "2026-05-02T16:25:53Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "619f5f24-7264-46b4-9cfc-cd1bf94c267a",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "a3ef2199-8590-47e8-b740-5253f454c3b5",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "f73cb2c4-f6d9-495d-8cbd-2dff07baa342",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "34c2ea79-89d9-462a-81f0-45a1c695ef32",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "fd76eacd-ee2e-4235-93e2-0204cf900c76",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "1a40fc35-c434-4128-8b27-b4973b027abc",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "84c0c919-e4b2-4c3f-86f5-414e736db5fc",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "0775926a-6441-4d44-b44c-e5fffd30c025",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "9a7eb1e2-5819-49aa-851f-9d4e307b1f2d",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "097b9844-c97b-4394-a9ad-c3753d9423be",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "2ec77f4e-8709-4662-b5b4-bdbdb4bae1a7",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "745e8f3b-5a0d-44d3-90ae-fe45b6f3c785",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "e96d9caf-caab-49fa-be96-1f19defd7331",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "e673325a-48a5-4a2b-b03c-3fcaa652f3f7",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "af37bcbc-5671-46dc-99c5-1877403577b8",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "06fca5fc-0f0b-40cf-a558-9214c2a800ab",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "78081e43-861f-4727-94a3-51cbd24c530d",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "bd4c9860-9c2b-4a4c-ac62-b68526a913a5",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "e9d488d9-87ed-46ee-8562-dcfd46dc88aa",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "f7627ee5-5008-4416-a138-87711e781aa3",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "aad30e0d-679e-4a67-b843-987d9a7f03fb",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "0a8fcf9a-3279-4961-b956-11d498f44e21",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "040336f5-d5ff-4dab-a651-194cefe76781",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "8b4ce12b-b0a3-430a-a7ee-19b5bf13c6c2",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "d624f0df-014f-481e-bae4-fdb01a45392b",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "4e92a556-122a-4907-92d6-f2161803b3ec",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "21452608-8274-4244-ac3d-7e13b0ef4b38",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "0f9ab590-0f65-4a97-a395-925570bbc06d",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "e1aae6bc-e980-42d1-a882-38d3c0be0fdc",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "c02b0471-cde5-4e10-a924-323f1fa9fc19",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "921f7a46-fc1b-4a9d-abc2-2898b4101b79",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "8544bc6a-4f49-4dd9-bc47-7c3c8706bd36",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "4ed46d28-105d-4e54-83e4-41af0fbe7919",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      },
+      {
+        "id": "a10751e5-3ffa-428b-9ba3-4b22eb887c77",
+        "hr": 71,
+        "hrv": 95,
+        "eda": 258.09396,
+        "timestamp": "2026-05-02T16:04:17Z",
+        "source": "thingspeak"
+      }
+    ],
+    "patient-2": [
+      {
+        "id": "8f911f41-55f2-446e-87ed-e9167c52da59",
+        "hr": 250,
+        "hrv": 100,
+        "eda": 174.84891,
+        "timestamp": "2026-05-02T15:08:30Z",
+        "source": "thingspeak"
+      }
+    ]
+  },
+  "summaries": {
+    "patient-1": {
+      "date": "2026-05-02",
+      "text": "Arjun Mehta has completed 3 check-ins today. Average fusion stress score today is 4/10. Latest vitals: HR 88, HRV 90, EDA 307.22815.",
+      "averageStress": 4,
+      "negatives": 0,
+      "crisisCount": 0,
+      "keywords": [],
+      "latestVitals": {
+        "id": "762f86ae-a1c4-49a9-a7ee-77ca51ddf96e",
+        "hr": 88,
+        "hrv": 90,
+        "eda": 307.22815,
+        "timestamp": "2026-05-02T16:37:03Z",
+        "source": "thingspeak"
+      }
+    },
+    "patient-2": {
+      "date": "2026-05-02",
+      "text": "Riya Sen has completed 0 check-ins today. Latest vitals: HR 96, HRV 38, EDA 5.1.",
+      "averageStress": null,
+      "negatives": 0,
+      "keywords": [],
+      "latestVitals": {
+        "id": "ceba9e9a-d80f-4f56-8c7b-f77339f22b1b",
+        "hr": 96,
+        "hrv": 38,
+        "eda": 5.1,
+        "timestamp": "2026-05-02T05:23:44.342Z",
+        "source": "seed"
+      }
+    }
+  }
+}
