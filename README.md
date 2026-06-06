@@ -5,7 +5,7 @@ This project is now set up so one Node service can serve both:
 - the built React frontend from `dist/`
 - the backend API from `server.mjs`
 
-## Before deploying
+## Before deploying see the below things
 
 1. Build the frontend:
 
