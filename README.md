@@ -1,4 +1,4 @@
-# Deploying NeuroMind
+# Deploying the NeuroMind
 
 This project is now set up so one Node service can serve both:
 
